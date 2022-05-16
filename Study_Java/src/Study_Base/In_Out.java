@@ -8,6 +8,7 @@ public class In_Out {
 		System.out.println("Hello"); //Hello 문자열 출력
 		System.out.println(3); // 3 출력
 		System.out.println(2*5); // 10 출력
+		System.out.println(a + i);
 		/*
 		 * System.out.print() : 줄바꿈 없는 출력
 		 * System.out.println() : 줄바꿈 포함 출력

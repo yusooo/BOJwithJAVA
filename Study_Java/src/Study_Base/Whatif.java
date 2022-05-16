@@ -15,5 +15,6 @@ public class Whatif {
 		else{
 			System.out.println("Haha, you don't know me!");
 		}
+		scanner.close();
 	}
 }
