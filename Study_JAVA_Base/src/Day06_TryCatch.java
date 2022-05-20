@@ -8,8 +8,8 @@ public class Day06_TryCatch {
 		try { 									//try 구문 내에서 시도를 하다가 에러 발생시 catch 구문으로 이동
 			IntArray[3] = 10;
 			IntArray[6] = 1;
-			Exception e = null;
-			throw e; 							//예외 던지기 => 고의 에러 발생
+			//Exception e = null;
+			//throw e; 							//예외 던지기 => 고의 에러 발생
 		}
 		catch(Exception e) {					//e: 에러 객체
 			e.printStackTrace(); 				//실제 에러문의 자세한 출력
