@@ -3,7 +3,7 @@ public class Book03_16 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String str[] = {"가위", "바위", "보"};
-		int us;
+		int us = 0;
 		
 		System.out.println("컴퓨터와 가위바위보 게임을 합니다.");
 		while(true) {
