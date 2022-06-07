@@ -1,8 +1,11 @@
 
 public class Book04_04 {
-	int x, y, width, height;
-	public Book04_04 (int a, int b, int c, int d) {
-		x=a, y=b, width=c, height=d;
+	public int x, y, width, height;
+	public Book04_04(int a, int b, int c, int d) {
+		x=a;
+		y=b;
+		width=c;
+		height=d;
 	}
 	public int square() {
 		return width*height;
@@ -13,7 +16,9 @@ public class Book04_04 {
 	public boolean contains(Book04_04 r) {
 		if(x<r.x && r.x<x+width) {
 			if(y<r.y && r.y<y+height) return true;
+			else return false;
 		}
+		else return false;
 	}
 	public static void main(String[] args) {
 		Book04_04 r = new Book04_04(2, 2, 8, 7);
