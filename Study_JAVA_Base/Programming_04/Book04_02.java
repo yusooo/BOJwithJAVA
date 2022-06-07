@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class Book04_02{
-	private static int math, science, english;
 	public int average(int a, int b, int c) {
-		return (math+science+english)/3;
+		return (a+b+c)/3;
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
