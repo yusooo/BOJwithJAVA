@@ -19,11 +19,17 @@ public class Book04_07 {
 			if(input == 1) {
 				System.out.print("날짜 입력(1~31) >>");
 				int inputDate = sc.nextInt();
-			}
-			else if(input == 2) {
+				System.out.print("할일(빈칸없이 입력) >>");
+				String work = sc.next();
 				
 			}
+			else if(input == 2) {
+				System.out.print("날짜 입력(1~31) >>");
+				int inputDate2 = sc.nextInt();
+				System.out.print(inputDate2+"일의 할 일은 "+inputDate2.show());
+			}
 			else {
+				
 				break;
 			}
 		}
