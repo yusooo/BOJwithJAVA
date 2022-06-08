@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Book04_6 {
+public class Book04_06 {
 	double x, y;
 	int radius;
-	public Book04_6(double x, double y, int radius) {
+	public Book04_06(double x, double y, int radius) {
 		x=0;
 		y=0;
 		radius=0;
@@ -13,13 +13,13 @@ public class Book04_6 {
 class CircleManage{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Book04_6 c [] = new Book04_6[3];
+		Book04_06 c [] = new Book04_06[3];
 		for(int i=0;i<3;i++) {
 			System.out.print("x, y, radius >> ");
 			double x = sc.nextDouble();
 			double y = sc.nextDouble();
 			int radius = sc.nextInt();
-			c[i]= new Book04_6(x, y, radius);
+			c[i]= new Book04_06(x, y, radius);
 		}
 		int max=c[0].radius;
 		for(int i=0;i<c.length;i++) {
