@@ -26,7 +26,7 @@ public class Book04_07 {
 			else if(input == 2) {
 				System.out.print("날짜 입력(1~31) >>");
 				int inputDate2 = sc.nextInt();
-				System.out.print(inputDate2+"일의 할 일은 "+ show());
+				System.out.print(inputDate2+"일의 할 일은 "+ work.show());
 			}
 			else {
 				
